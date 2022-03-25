@@ -2,7 +2,7 @@
    display: grid;
    border: 3px solid blue;
    background-color: purple;
-   grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
+   grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
    gap: 10px;
 }
 
@@ -78,45 +78,45 @@ div.item12 {
 
 div.item13 {
     background-image: url(./queso-taco.png);
-    grid-area: 5/ 1/ 6/ 6;
+    grid-area: 5/ 1/ 7/ 6;
 }
 div.item14 {
     background-image: url(./201x201.jpg);
-    grid-area: 6/ 1/ 8/ 2;
+    grid-area: 7/ 1/ 9/ 2;
 }
 div.item15 {
     background-image: url(./202x202.jpg);
-    grid-area: 6/ 2/ 8/ 3;
+    grid-area: 7/ 2/ 9/ 3;
 }
 div.item16 {
     background-image: url(./203x203.jpg);
-    grid-area: 6/ 3/ 8/ 4;
+    grid-area: 7/ 3/ 9/ 4;
     
 }div.item17 {
     background-image: url(./204x204.jpg);
-    grid-area: 6/ 4/ 8/ 5;
+    grid-area: 7/ 4/ 9/ 5;
 }
 div.item18 {
     background-image: url(./205x205.jpg);
-    grid-area: 6/ 5/ 8/ 6;
+    grid-area: 7/ 5/ 9/ 6;
 }
 div.item19 {
     background-image: url(./206x206.jpg);
-    grid-area: 8/ 1/ 10/ 2;
+    grid-area: 9/ 1/ 11/ 2;
 }
 div.item20 {
     background-image: url(./207x207.jpg);
-    grid-area: 8/ 2/ 10/ 3;
+    grid-area: 9/ 2/ 11/ 3;
 }
 div.item21 {
     background-image: url(./207x208.jpg);
-    grid-area: 8/ 3/ 10/ 4;
+    grid-area: 9/ 3/ 11/ 4;
 }
 div.item22 {
     background-image: url(./207x209.jpg);
-    grid-area: 8/ 4/ 10/ 5;
+    grid-area: 9/ 4/ 11/ 5;
 }
 div.item23 {
     background-image: url(./207x210.jpg);
-    grid-area: 8/ 5/ 10/ 6;
+    grid-area: 9/ 5/ 11/ 6;
 }
