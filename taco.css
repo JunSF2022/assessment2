@@ -1,0 +1,122 @@
+.grid_container {
+   display: grid;
+   border: 3px solid blue;
+   background-color: purple;
+   grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
+   gap: 10px;
+}
+
+.grid_container >div {
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.item1 {
+    font-size: 10px;
+    font-weight: bold;
+    background-color: orange;
+}
+div.item2 {
+    font-size: 10px;
+    font-weight: bold;
+    background-color: orange;
+}
+div.item3 {
+    font-size: 10px;
+    font-weight: bold;
+    background-color: orange;
+}
+div.item4 {
+    font-size: 10px;
+    font-weight: bold;
+    background-color: orange;
+}
+div.item5 {
+    font-size: 10px;
+    font-weight: bold;
+    background-color: orange;
+}
+
+div.item6 {
+    background-image: url(./taco.jpg);
+    color: red;
+    grid-area: 2/ 1/ 4/ 5;
+}
+div.item7 {
+    
+    background-color: orange;
+}
+div.item8 {
+    
+    background-color: orange;
+}
+div.item9 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+div.item10 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+div.item11 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+div.item12 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+div.item13 {
+    background-image: url(./queso-taco.png);
+    grid-area: 5/ 1/ 6/ 6;
+}
+div.item14 {
+    background-image: url(./201x201.jpg);
+    grid-area: 6/ 1/ 8/ 2;
+}
+div.item15 {
+    background-image: url(./202x202.jpg);
+    grid-area: 6/ 2/ 8/ 3;
+}
+div.item16 {
+    background-image: url(./203x203.jpg);
+    grid-area: 6/ 3/ 8/ 4;
+    
+}div.item17 {
+    background-image: url(./204x204.jpg);
+    grid-area: 6/ 4/ 8/ 5;
+}
+div.item18 {
+    background-image: url(./205x205.jpg);
+    grid-area: 6/ 5/ 8/ 6;
+}
+div.item19 {
+    background-image: url(./206x206.jpg);
+    grid-area: 8/ 1/ 10/ 2;
+}
+div.item20 {
+    background-image: url(./207x207.jpg);
+    grid-area: 8/ 2/ 10/ 3;
+}
+div.item21 {
+    background-image: url(./207x208.jpg);
+    grid-area: 8/ 3/ 10/ 4;
+}
+div.item22 {
+    background-image: url(./207x209.jpg);
+    grid-area: 8/ 4/ 10/ 5;
+}
+div.item23 {
+    background-image: url(./207x210.jpg);
+    grid-area: 8/ 5/ 10/ 6;
+}
