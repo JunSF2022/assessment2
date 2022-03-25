@@ -1,0 +1,125 @@
+.grid_container {
+    display: grid;
+    background-color: purple;
+    grid: repeat(7, 1fr)/ repeat(5, 1fr);
+    gap: 10px;
+ }
+ 
+ .grid_container >div {
+     background-color: white;
+     border: 1px solid black;
+     padding: 20px;
+     font-size: 30px;
+     text-align: center;
+ }
+ 
+ div.item1 {
+     font-size: 10px;
+     font-weight: bold;
+     background-color: orange;
+ }
+ div.item2 {
+     font-size: 10px;
+     font-weight: bold;
+     background-color: orange;
+ }
+ div.item3 {
+     font-size: 10px;
+     font-weight: bold;
+     background-color: orange;
+ }
+ div.item4 {
+     font-size: 10px;
+     font-weight: bold;
+     background-color: orange;
+ }
+ div.item5 {
+     font-size: 10px;
+     font-weight: bold;
+     background-color: orange;
+ }
+ 
+ div.item6 {
+     background-image: url(./taco.jpg);
+     color: red;
+     grid-area: 2/ 1/ 4/ 5;
+ }
+ div.item7 {
+     
+     background-color: orange;
+     grid-area: 2/ 5/ 3/ 6;
+ }
+ div.item8 {
+     
+     background-color: orange;
+     grid-area: 3/ 5/ 4/ 6;
+ }
+ div.item9 {
+     font-size: 20px;
+     font-weight: bold;
+     background-color: white;
+ }
+ 
+ div.item10 {
+     font-size: 20px;
+     font-weight: bold;
+     background-color: white;
+ }
+ div.item11 {
+     font-size: 20px;
+     font-weight: bold;
+     background-color: white;
+ }
+ 
+ div.item12 {
+     font-size: 20px;
+     font-weight: bold;
+     background-color: white;
+     grid-area: 4/ 4/ 5/ 6;
+ }
+ 
+ div.item13 {
+     background-image: url(./queso-taco.png);
+     grid-area: 5/ 1/ 7/ 3;
+     justify-items: center;
+     }
+ div.item14 {
+     background-image: url(./201x201.jpg);
+     grid-area: 7/ 1/ 9/ 2;
+ }
+ div.item15 {
+     background-image: url(./202x202.jpg);
+     grid-area: 7/ 2/ 9/ 3;
+ }
+ div.item16 {
+     background-image: url(./203x203.jpg);
+     grid-area: 7/ 3/ 9/ 4;
+     
+ }div.item17 {
+     background-image: url(./204x204.jpg);
+     grid-area: 7/ 4/ 9/ 5;
+ }
+ div.item18 {
+     background-image: url(./205x205.jpg);
+     grid-area: 7/ 5/ 9/ 6;
+ }
+ div.item19 {
+     background-image: url(./206x206.jpg);
+     grid-area: 9/ 1/ 11/ 2;
+ }
+ div.item20 {
+     background-image: url(./207x207.jpg);
+     grid-area: 9/ 2/ 11/ 3;
+ }
+ div.item21 {
+     background-image: url(./207x208.jpg);
+     grid-area: 9/ 3/ 11/ 4;
+ }
+ div.item22 {
+     background-image: url(./207x209.jpg);
+     grid-area: 9/ 4/ 11/ 5;
+ }
+ div.item23 {
+     background-image: url(./207x210.jpg);
+     grid-area: 9/ 5/ 11/ 6;
+ }
