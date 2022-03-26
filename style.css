@@ -5,15 +5,14 @@ body {
 }
 .container {
     display: grid;
-    background-color: purple;
-    border: 5px solid purple;
+    border: 10px solid #8f1e40;
     grid-template-columns: repeat(21, 1fr);
     grid-template-rows: repeat(21, 1fr);
     
 }
 .container >div {
     display: grid;
-    border: 5px solid purple;
+    border: 10px solid #8f1e40;
     padding: 10px;
 
 }
@@ -66,7 +65,7 @@ div.taco {
     grid-row-start: 2;
     grid-row-end: 6;
     background-position: center;
-    height: 180px;
+    /*height: 180px;*/
     padding-left: 100px;
 
 }    
@@ -224,4 +223,11 @@ div.view10 {
     grid-row-start: 18;
     grid-row-end: 22;
     background-image: url(./207x210.jpg);
+}
+div.board {
+    grid-column-start: 10;
+    grid-column-end: 22;
+    grid-row-start: 18;
+    grid-row-end: 22;
+    background: linear-gradient(#8f1e40 10%, #87579e 50%);
 }
