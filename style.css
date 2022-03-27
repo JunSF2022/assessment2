@@ -58,16 +58,26 @@ div.top5 {
 }
 div.taco {
     background-image: url(./taco.jpg);
-    font-size: 30px;
-    font-weight: bold;
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 2;
     grid-row-end: 6;
-    background-position: center;
-    /*height: 180px;*/
+    background-position: center bottom 30%;
+    height: 180px;
     padding-left: 100px;
-
+    position: relative;
+    
+}
+.Terry {
+    position: absolute;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 100px;
+    left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }    
 div.price1 {
     font-size: 40px;
@@ -76,7 +86,11 @@ div.price1 {
     grid-column-end: 22;
     grid-row-start: 2;
     grid-row-end: 4;
-    
+}
+.tacoprice {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
 }
 div.price2 {
     font-size: 40px;
@@ -85,7 +99,11 @@ div.price2 {
     grid-column-end: 22;
     grid-row-start: 4;
     grid-row-end: 6;
-    
+}
+.komprice {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
 }    
 div.menu1{
     font-size: 20px;
@@ -126,20 +144,22 @@ div.menu4 {
 } 
 div.cheese {
     background-image: url(./queso-taco.png);
+    background-position: bottom left;
     font-size: 20px;
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 8;
     grid-row-start: 8;
     grid-row-end: 14;
     background-color: white;
-    border: 10px solid white;
+    border: 15px solid white;
+    
 }
 div.white1 {
     font-size: 20px;
     font-weight: bold;
     text-align: justify;
-    grid-column-start: 7;
-    grid-column-end: 11;
+    grid-column-start: 8;
+    grid-column-end: 13;
     grid-row-start: 8;
     grid-row-end: 14;
     background-color: white;
@@ -150,7 +170,7 @@ div.white2 {
     font-size: 20px;
     font-weight: bold;
     text-align: justify;
-    grid-column-start: 11;
+    grid-column-start: 13;
     grid-column-end: 22;
     grid-row-start: 8;
     grid-row-end: 14;
